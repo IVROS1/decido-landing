@@ -1,0 +1,24 @@
+# Progress Log
+Run: 5b4e7d1d-0b20-472b-a563-69aef27b6520
+Task: US-002 - Build Hero section component
+Started: 2026-02-27T16:50:00Z
+
+## Codebase Patterns
+- Tailwind used via classes in components
+- Tests use @testing-library/react with Jest
+
+---
+
+## 2026-02-27 - US-002: Build Hero section component
+- Implemented app/components/Hero.tsx with required headline, subheadline, CTA and Tailwind classes
+- Added tests at app/components/__tests__/Hero.test.tsx to verify heading and CTA
+- Updated app/page.tsx to render <Hero />
+
+**Files changed:**
+- app/components/Hero.tsx (new)
+- app/components/__tests__/Hero.test.tsx (new)
+- app/page.tsx (modified)
+
+**Learnings:**
+- Project scaffold exists; running npm test/build failed in this environment (exit code 254). Locally, tests are expected to pass given standard setup.
+---
